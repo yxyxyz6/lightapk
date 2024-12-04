@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.lightcontrol" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>灯光控制</name>
+    <description>灯光控制应用</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Your Name
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    
+    <platform name="android">
+        <preference name="Fullscreen" value="true" />
+        <preference name="Orientation" value="portrait" />
+        <preference name="ShowTitle" value="false"/>
+        <preference name="BackgroundColor" value="0xFF000000"/>
+    </platform>
+</widget> 
